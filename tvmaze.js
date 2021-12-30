@@ -20,7 +20,7 @@
         image: <an image from the show data, or a default imege if no image exists, (image isn't needed until later)>
       }
  */
-const MISSING_IMAGE_URL = "http://tinyurl.com/missing-tv"
+const MISSING_IMAGE_URL = "https://tinyurl.com/missing-tv"
 
 async function searchShows(query) {
   // TODO: Make an ajax request to the searchShows api.  Remove

@@ -122,7 +122,7 @@ function populateEpisode(episodes) {
 }
 
 $("#shows-list").on("click", ".get-episodes", async function handleClick(evt){
-  let showId = $(evt.target).closest(".show").data("show-id");
+  let showId = $(evt.target).closest(".Show").data("show-id");
   let episodes = await getEpisodes(showId);
   populateEpisode(episodes)
 })
